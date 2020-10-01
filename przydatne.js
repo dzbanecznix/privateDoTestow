@@ -1,3 +1,5 @@
+const puppeteer = require('puppeteer'); //najpierw ściągnij pupeteera xD
+
 async function getCode(url) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
