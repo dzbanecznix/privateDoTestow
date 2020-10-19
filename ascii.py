@@ -1,6 +1,7 @@
 import urllib.request, os, sourcewriter
 
 print("workzzz")
+sourcewriter.datcyn()
 
 '''
 try:
