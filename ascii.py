@@ -1,5 +1,8 @@
-import urllib.request, os
+import urllib.request, os, sourcewriter
+
 print("workzzz")
+
+'''
 try:
     f = open("C:\Program Files\ASCIIlove\f.txt", "w")
     f.close()
@@ -9,3 +12,4 @@ except:
     f = open("C:\Program Files\ASCIIlove\f.txt", "w")
     f.write("wow that works")
     f.close()
+'''
