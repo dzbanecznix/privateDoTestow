@@ -1,4 +1,4 @@
 import os
-print(os.getchwd())
+print(os.getcwd())
 print("works btw")
 input()
