@@ -1,0 +1,110 @@
+from msvcrt import kbhit, getch
+from time import sleep
+import urllib.request, os
+games = [["tetris", "aleksej pażytnow", "https://raw.githubusercontent.com/dzbanecznix/privateDoTestow/master/ascii.py", "Tetris is a game that is soooo sexy unless u r gae XD"], ["znaki mniejszości", "dzbanecznix", "https://raw.githubusercontent.com/dzbanecznix/prosta-gra-Python/master/gra.py", "   O   O   \n \\_______/ \na game that has a lot of blocks\nbut it is cool\nit is so cool\nczemu masz rany na rękach\nbawiłam się z kotkiem\nczy ten kotek ma na imię żyletka\ntak ale to mój jedyny przyjaciel\nto po co dawałaś kotu na imię żyletka xd\na swoją drogą na żylecie się nie siedzi tam się stoi i kibicuje"], ["game", "ur mom", "https://raw.githubusercontent.com/dzbanecznix/privateDoTestow/master/ascii.py", "you weil not beliv in dat quality simply u r a SIMP"]]
+texts = ["ads"]
+downloaded = []
+p = 0
+__path__ = os.getcwd()
+clear = lambda: os.system('cls')
+def waitForKeys(keys):
+    while True:
+        while not kbhit():
+            sleep(0)
+        key = getch()
+        i = 0
+        for k in keys:
+            if key == k:
+                return(i)
+            i += 1
+def play(gameData):
+    global downloaded
+    yes = True
+    clear()
+    while True:
+        outputString = ""
+        outputString += ("Play "+gameData[0]+"?\n")
+        if yes:
+            outputString += (">yes<\n no ")
+        else:
+            outputString += (" yes \n>no<")
+        clear()
+        print(outputString)
+        key = waitForKeys([b'K', b'M', b'H', b'P', b' ']) # b'K': left, b'M': right, b'H': up, b'P': down
+        if key in [0, 1, 2, 3]:
+            yes = not yes
+        else:
+            break
+    if yes:
+        print("Downloading...")
+        try:
+            urllib.request.urlopen("https://www.google.com/", timeout = 1)
+            with open(__path__ +"\\"+gameData[0]+".txt", "w") as f:
+                f.write(str(urllib.request.urlopen(gameData[2]).read(), encoding = 'utf-8'))
+        except Exception as e:
+            print(e)
+        srccode = compile(open(__path__+"\\"+gameData[0]+".txt", "r").read(), "", "exec")
+        clear()
+        try:
+            exec(srccode)
+        except Exception as e:
+            print("something went wrong :/\\nError: ")
+            input(e)
+def getDescription(index):
+    global description
+    if index < 0:
+        description = ""
+        return
+    descriptionText = games[index][3]
+    description = []
+    line = ""
+    for char in descriptionText:
+        if char == "\n":
+            description.append(line)
+            line = ""
+        else:
+            line += char
+    description.append(line)
+def getLine(index):
+    if index >= len(description):
+        return ""
+    return description[index]
+def printMenu():
+    getDescription(p-len(texts))
+    outputString = ""
+    i = -1
+    for text in texts:
+        i += 1
+        if i == p:
+            outputString += (">" + text + "<\n")
+        else:
+            outputString += (" " + text + (" " *(21 - len(text))) + getLine(i) + "\n") # " by " + game[1] + 
+    for game in games:
+        i += 1
+        if i == p:
+            outputString += (">" + game[0] + "<" + (" " *(20 - len(game[0]))) + getLine(i) + "\n") #
+        else:
+            outputString += (" " + game[0] + (" " *(21 - len(game[0]))) + getLine(i) + "\n") # " by " + game[1] +
+    while i < len(description):
+        i+=1
+        outputString += " "*22+getLine(i)+"\n"
+    clear()
+    print(outputString)
+while True:
+    try:
+        printMenu()
+    except Exception as e:
+        print(e)
+        input()
+    key = waitForKeys([b'K', b'M', b'H', b'P', b' ']) # b'K': left, b'M': right, b'H': up, b'P': down
+    if key == 0 or key == 2:
+        p -= 1
+        if p < 0: p = (len(games)+len(texts)-1)
+    elif key == 1 or key == 3:
+        p += 1
+        if p > (len(games)+len(texts)-1): p = 0
+    else:
+        if p == 0:
+            print("that's not even a game lol")
+        else:
+            play(games[p-len(texts)])
