@@ -1,12 +1,31 @@
 from msvcrt import kbhit, getch
 from time import sleep
-import urllib.request, os, traceback
-games = [["tetris", "aleksej pażytnow", "https://raw.githubusercontent.com/dzbanecznix/privateDoTestow/master/ascii.py", "Tetris is a game that is soooo sexy unless u r gae XD"], ["znaki mniejszości", "dzbanecznix", "https://raw.githubusercontent.com/dzbanecznix/prosta-gra-Python/master/gra.py", "   O   O   \n \\_______/ \na game that has a lot of blocks\nbut it is cool\nit is so cool\nczemu masz rany na rękach\nbawiłam się z kotkiem\nczy ten kotek ma na imię żyletka\ntak ale to mój jedyny przyjaciel\nto po co dawałaś kotu na imię żyletka xd\na swoją drogą na żylecie się nie siedzi tam się stoi i kibicuje"], ["game", "ur mom", "https://raw.githubusercontent.com/dzbanecznix/privateDoTestow/master/ascii.py", "you weil not beliv in dat quality simply u r a SIMP"]]
+from oauth2client.service_account import ServiceAccountCredentials
+import urllib.request, os, traceback, gspread, json
+
+__path__ = os.getcwd()
+
+def OpenGoogleSheet(filename):
+    scope = ["https://spreadsheets.google.com/feeds",'https://www.googleapis.com/auth/spreadsheets',"https://www.googleapis.com/auth/drive.file","https://www.googleapis.com/auth/drive"]
+    creds = ServiceAccountCredentials.from_json_keyfile_name(__path__+"\\test projektu-9f91d648512d.json", scope)
+    client = gspread.authorize(creds)
+    sheet = client.open(filename).sheet1  # Open the spreadhseet  # Get a list of all records
+    return(sheet)
+
+games = []
+print("reading games data...")
+games_data = OpenGoogleSheet("ascii games")
+i = 0
+cell = "nothing"
+while cell != "":
+   i += 1
+   cell = games_data.cell(i+1, 1).value
+   games.append([games_data.cell(i, 1).value, games_data.cell(i, 2).value, games_data.cell(i, 3).value, games_data.cell(i, 4).value])
 texts = ["ads"]
 downloaded = []
 p = 0
-__path__ = os.getcwd()
 clear = lambda: os.system('cls')
+
 def waitForKeys(keys):
     while True:
         while not kbhit():
