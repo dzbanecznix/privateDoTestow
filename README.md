@@ -141,14 +141,14 @@ Palju v Angliji i Finlandiji
 Daže Fracciji
 Ah, v glåvě pokrutilo mi
 Palju to časom sam ale togda ne ‘st tako funny
-Časom tu traču čas ale  //mi sie wcale nie pali
+Časom tutoj traču čas ale mi sę sovsěm ne pali
 Izrastl jesm v džungli na muža ja
 Koj umě zajmati sę svojimi věćami
 vyše slavna čem Muppet žaba
 Svoju Ganju Mafju ‘maju kak v Kali
 Ne jesm Doktor Dollitle ne govorju s psami
-Rapery sami idųt privitat’ sę
-Potem něčto za hrbetom
+Raper sam idě privitati sę a
+Potem něčto za hrebetom govori
 Ako jesi taky kralj džungly
 Čemu po grådu bludiš so gorilami
 Ja vozpital jesm sę srěd měšancev
