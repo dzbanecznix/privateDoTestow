@@ -55,6 +55,33 @@ Jeszcze jedna
 Jeszcze jedna
 Jeszcze jedna
 
+Jaram to czasem sam ale wtedy nie jest tak funny
+Czasem tutaj tracę czas ale mi się wcale nie pali
+Wyrosłem w dżungli na faceta
+Który umie zająć się swoimi sprawami
+Sławniejsza żaba od Muppeta
+Swoją Ganje Mafie mam jak Kali
+Ja to nie Doktor Dolittle nie gadam z psami
+Raperzy sami podchodzą zbić witę
+A później pierdolą coś za plecami
+Jeśli taki z ciebie król dżungli
+Czemu po mieście bujasz się z gorylami
+Ja wychowałem się wśród kundli
+Dlatego jesteśmy tak wyszczekani
+
+Jungle Girl moje kwiaty z Cali
+Amsterdamu i Hiszpanii
+Szczyty Eiffla jak te w Paris
+Zapach lepszy od Armani
+Jungle Girl nocą dzika bestia
+Non stop w łowach nie od święta
+W torbie gelato torebka
+Pójdzie z dymem jeszcze jedna
+Jeszcze jedna
+Jeszcze jedna
+Jeszcze jedna
+Jeszcze jedna
+
 SLAVA MEDŽUSLOVJANSKOMU JEZYKU!1!!1!1!
 
 Džunglica moje cvěty ‘z Cali
@@ -113,30 +140,29 @@ Kruču s kolegami palju te skruty s tuzemcami
 Palju v Angliji i Finlandiji
 Daže Fracciji
 Ah, v glåvě pokrutilo mi
+Palju to časom sam ale togda ne ‘st tako funny
+Časom tu traču čas ale  //mi sie wcale nie pali
+Izrastl jesm v džungli na muža ja
+Koj umě zajmati sę svojimi věćami
+vyše slavna čem Muppet žaba
+Svoju Ganju Mafju ‘maju kak v Kali
+Ne jesm Doktor Dollitle ne govorju s psami
+Rapery sami idųt privitat’ sę
+Potem něčto za hrbetom
+Ako jesi taky kralj džungly
+Čemu po grådu bludiš so gorilami
+Ja vozpital jesm sę srěd měšancev
+Za to jesmo tako vylajani
 
-Jaram to czasem sam ale wtedy nie jest tak funny
-Czasem tutaj tracę czas ale mi się wcale nie pali
-Wyrosłem w dżungli na faceta
-Który umie zająć się swoimi sprawami
-Sławniejsza żaba od Muppeta
-Swoją Ganje Mafie mam jak Kali
-Ja to nie Doktor Dolittle nie gadam z psami
-Raperzy sami podchodzą zbić witę
-A później pierdolą coś za plecami
-Jeśli taki z ciebie król dżungli
-Czemu po mieście bujasz się z gorylami
-Ja wychowałem się wśród kundli
-Dlatego jesteśmy tak wyszczekani
-
-Jungle Girl moje kwiaty z Cali
-Amsterdamu i Hiszpanii
-Szczyty Eiffla jak te w Paris
-Zapach lepszy od Armani
-Jungle Girl nocą dzika bestia
-Non stop w łowach nie od święta
-W torbie gelato torebka
-Pójdzie z dymem jeszcze jedna
-Jeszcze jedna
-Jeszcze jedna
-Jeszcze jedna
-Jeszcze jedna
+Džunglica moje cvěty ‘z Cali
+Amsterdama i Španije
+vŕhy EIffla kako v Paris
+Zapah lěpši čem Armani
+Džunglica noćejų diky tvor
+Ktory lovi bezprěryvno
+V měšku gelato měšek je
+S dimom skonči jedna ješče
+Jedna ješče
+Jedna ješče
+Jedna ješče 
+Jedna ješče
